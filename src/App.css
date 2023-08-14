@@ -1,0 +1,113 @@
+ 
+body{
+    margin: 0;
+    background-color: #191970;
+    font-family: 'Karla', sans-serif;
+}
+
+main{
+    background-color: #F5F5F5;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header-text{
+    font-weight: bold;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.input-field{
+    width: 370px;
+    margin-right: 15px;
+    padding: 10px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 15px;
+    border: 1px solid #191970;
+    font-size: 18px;
+    
+}
+
+.add-button{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    font-family: 'Karla', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    background: linear-gradient(#191970,#4169E1);
+    cursor: pointer;
+    text-align: center;
+}
+
+.add-icon{
+    font-size: 18px;
+    color: white;
+}
+.add-button:active{
+    box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
+}
+
+
+
+.list-container{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px;
+    
+}
+
+.message{
+ text-align: center;
+ opacity: 0.6;
+}
+
+.list-item{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px ;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.complete-check{
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+   
+}
+
+.item-text{
+    font-style: 'Karla', sans-serif; 
+    margin-right: 10px;
+}
+
+.delete-button{
+   border: none;
+    background-color: #FFF;
+    cursor: pointer;
+}
+
+.delete-icon{
+    font-size: 20px;
+}
